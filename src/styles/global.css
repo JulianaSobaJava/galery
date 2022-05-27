@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray-100: #f8f6fc;
+  --gray-300: #a8a8b3;
+  --gray-800: #29292e;
+
+  --orange-500: #ec6a30;
+  --error:red;
+}
+
+.App{
+      padding: 2rem 4rem;
+    margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+body{
+    background-color: var(--gray-100)
+}
+
+
+  @media (max-width: 720px) {
+    html {
+      font-size: 93.75%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,4 @@
+.progress{
+    height:.4rem;
+    background-color: var(--orange-500);
+}
